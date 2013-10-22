@@ -1,9 +1,9 @@
 package mturk_test
 
 import (
-	"github.com/mitchellh/goamz/aws"
-	"github.com/mitchellh/goamz/exp/mturk"
-	"github.com/mitchellh/goamz/testutil"
+	"github.com/jefflab/goamz/aws"
+	"github.com/jefflab/goamz/exp/mturk"
+	"github.com/jefflab/goamz/testutil"
 	. "launchpad.net/gocheck"
 	"net/url"
 	"testing"

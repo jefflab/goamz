@@ -1,8 +1,8 @@
 package s3_test
 
 import (
-	"github.com/mitchellh/goamz/aws"
-	"github.com/mitchellh/goamz/s3"
+	"github.com/jefflab/goamz/aws"
+	"github.com/jefflab/goamz/s3"
 	. "launchpad.net/gocheck"
 )
 
