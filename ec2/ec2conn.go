@@ -36,6 +36,12 @@ type EC2Conn struct {
 }
 
 // New creates a new EC2Conn.
+
+// TODO: understand whether I should be returning a *EC2
+// Seems like I should, because of the `return &EC2Conn`,
+// but it doesn't compile.  Pretty sure the answer is here
+// if I can wrap my head around it:
+// http://jordanorelli.tumblr.com/post/32665860244/how-to-use-interfaces-in-go
 func New(auth aws.Auth, region aws.Region) EC2 {
 	return &EC2Conn{auth, region, 0}
 }
